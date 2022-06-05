@@ -5,7 +5,8 @@
 ## Contacts:
 **discord:** Lectra#1823
 **telegram:** https://t.me/lectrara
-**Target:** get a job as a frontend developer.
+## Target:
+Get a job as a frontend developer.
 
 ## Skills:
 * Programming languages: 
