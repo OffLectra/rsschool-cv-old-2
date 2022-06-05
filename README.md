@@ -1,2 +1,3 @@
 # rsschool-cv
-init
+
+https://OffLectra.github.io/rsschool-cv/cv
