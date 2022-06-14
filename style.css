@@ -86,7 +86,6 @@ li {
     color: #11cf9d;
 }
   
-
 .contact li {
     text-align: right;
     text-transform: uppercase;
@@ -141,6 +140,9 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .nav-list {
@@ -158,6 +160,22 @@ body {
     text-decoration: none;  
     transition: color 0.5s;
   }
-  .section-item a:hover {
+
+.section-item a:hover {
     color: #4d2323;
-  }
+}
+
+.block_container {
+    margin: 1rem;
+}
+.rs_logo {
+    width: 5rem;
+}
+
+.git_logo {
+    width: 2rem;
+}
+
+.nav-item {
+    padding-right: 1rem;
+}
