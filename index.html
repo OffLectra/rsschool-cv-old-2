@@ -4,9 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon_resume.png">
     
+</head>
+
+<body>
+<header class = "header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Work Experience</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class = "main">
+    <div class="resume">
+        <div class="column">
+            <section class="profile">
+                <h1>Ulyana Skripka</h1>
+                <p>Frontend-developer</p>
+                <img src="./img/ulya.jpg" alt="Ulyana Skripka">
+            </section>
+    
+            <section class="contact">
+                <h2 id="contacts">Contacts</h2>
+                <ul>
+                    <li>discord: Lectra#1823</li>
+                    <li>telegram: <a href="https://t.me/lectrara" target="_blank">https://t.me/lectrara</a></li>
+                    <li>e-mail: minilektrina@gmail.com</li>
+                </ul>
+            </section>
+    
+            <section class="objectives">
+                <p>Target: get a job as a frontend developer.</p>
+            </section>
+
+            <section class="skills">
+                <h2 id="skills">Skills</h2>
+                    <ul>
+                        <li><em><span>Programming languages:</span></em></li>
+                        <ul>
+                            <li>C++ (Qt), C</li>
+                            <li>HTML, CSS</li>
+                            <li>Java Script – basic level</li>
+                            <li>Python – basic level</li>
+                        </ul>
+                        <li><em>CAD systems:</em></li>
+                            <ul>
+                                <li>Autodesk Inventor</li>
+                                <li>Autodesk AutoCad</li>
+                                <li>MathCad</li>
+                            </ul>
+                        <li><em>Linux (Ubuntu)</em></li>
+                        <li><em>Git</em></li>
+                        <li><em>Foreign languages:</em></li>
+                            <ul>
+                                <li>English - intermediate</li>
+                                <li>Russian - native</li>
+                            </ul>
+                    </ul>
+            </section>
+        </div>    
+
+        <div class="column">
+            <section class="education">
+                <h2 id="education">Education</h2>
+                <ul class="timeline">
+                    <li class="event">
+                        <span class="duration">2016/09 - 2022</span>
+                        <div class="content">
+                            <h3>Specialist</h3>
+                            <p><em>BMSTU, Special Machinery faculty</em></p>
+                            <p>Navigation and Ballistics for Spaceflight Support: Design Ballistic for Rockets and Space Systems</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+                
+            <section class="code_example">
+                <h2 id="code">Code Example</h2>
+                <code>   
+                    &lthead><br>
+                        &ltmeta charset="UTF-8"><br>
+                        &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"><br>
+                        &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+                        &lttitle>Document&lt/title><br>
+                        &ltlink rel="stylesheet" href="style.css"><br>
+                    &lt/head><br>
+                </code>
+            </section>
+        
+            <section class="experience">
+                <h2 id="experience">Work Experience</h2>
+                <p>No work experience</p>
+            </section>
+        
+            <section class="courses">
+                <h2 id="courses">Courses</h2>
+                <ul class="timeline">
+                    <li class="event">
+                        <span class="duration">2022</span>
+                        <div class="content">
+                            <h3>Frontend-developer</h3>
+                            <p><em>Epam Training Center</em></p>
+                        </div>                
+                    </li>
+        
+                    <li class="event">
+                        <span class="duration">2022</span>
+                        <div class="content">
+                            <h3>Site layout basics</h3>
+                            <p><em>Netology course</em></p>
+                        </div>
+                    </li>
+        
+                    <li class="event">
+                        <span class="duration">2021</span>
+                        <div class="content">
+                            <h3>C/C++ developer</h3>
+                            <p><em>Technopark Mail.ru Group & BMSTU</em></p>
+                        </div>
+                    </li>
+                        
+                    <li class="event">
+                        <span class="duration">2021</span>
+                        <div class="content">
+                            <h3>Python programming. Level 2. Advanced course.</h3>
+                            <p><em>The Computer Training Center «Specialist» at BMSTU</em></p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <h2 id="projects">Projects</h2>
+                    <ul>
+                        <li><em>Seafaring History:</em></li>
+                        <ul>
+                            <li><a href="https://github.com/OffLectra/seafaring_history" target="_blank">Klick me!</a></li>
+                        </ul>
+                    </ul>
+            </section>
+        </div>
+    </div>
+</main>  
+    
+<footer class = "footer">
+    <div class="container">
+        <div class="block_container">
+            <a class="my_git" href="https://github.com/OffLectra" target="_blank"><img class="git_logo" src="img/github.png" alt="logo_git"></a>
+        </div>
+        <div class="block_container">
+            <a class="rs_logo_link" href="https://rs.school/js/" target="_blank"><img class="rs_logo" src="img/rs_school_js.png" alt="logo_rs"></a>
+        </div>
+        <div class="block_container">2022</div>
+    </div>
+</footer>
 </body>
 </html>
